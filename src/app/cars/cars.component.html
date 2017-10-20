@@ -1,3 +1,9 @@
-<p>
-  cars works!
-</p>
+<div class="cars">
+  <h1>Автомобили</h1>
+</div>
+<button [disabled]="!canAddCar" class="btn btn-primary">Добавить автомобиль</button>
+<hr>
+<div class="car">
+  <app-car></app-car>
+  <app-car></app-car>
+</div>
